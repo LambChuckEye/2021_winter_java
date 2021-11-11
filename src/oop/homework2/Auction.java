@@ -81,9 +81,10 @@ public class Auction {
         return false;
     }
 
-
     /**
-     * 开始拍卖
+     * 拍卖流程启动
+     *
+     * @return 拍卖状态
      */
     public int auctionStart() {
         System.out.println("请输入拍卖商品id：");
