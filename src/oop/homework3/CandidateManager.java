@@ -118,7 +118,9 @@ public class CandidateManager {
     }
 
     public static void main(String[] args) {
+
         CandidateManager candidateManager = new CandidateManager(50);
+
         candidateManager.add("wang", "li", "zhao");
 
         candidateManager.vote("wang");
@@ -129,11 +131,11 @@ public class CandidateManager {
         candidateManager.vote("wang", "li", "zhao");
         candidateManager.vote("wang", "li", "zhao");
         candidateManager.vote("zhao");
-        candidateManager.vote();
-        candidateManager.vote();
-        candidateManager.vote();
-        candidateManager.vote();
-        candidateManager.vote();
+//        candidateManager.vote();
+//        candidateManager.vote();
+//        candidateManager.vote();
+//        candidateManager.vote();
+//        candidateManager.vote();
 
         candidateManager.check();
         candidateManager.print();
